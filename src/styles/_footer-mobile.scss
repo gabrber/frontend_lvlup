@@ -1,0 +1,39 @@
+@media screen and (max-width: $mobile-max-width) {  
+    .page-footer__list {
+        padding: 5px 0px;
+    } 
+
+    .footer-info-links {
+        text-align: start;
+    }
+
+    .page-footer__list__item {
+        padding: 8px;
+    }
+    
+    .page-footer__right {
+        text-align: left;
+    }
+    
+    .page-footer__rights {
+        margin: 15px;
+        padding: 0px;
+        padding-top: 20px;
+        border-top: solid 1px $primary-color;
+    }
+
+    .page-footer__rights__text {
+        margin: 0px;
+    }
+
+    .page-footer__payment {
+        position: static;
+        padding: 0px;
+        margin: 15px;
+        margin-top: 0px;
+    }
+    
+    .payment__image {
+        position: static;
+    }
+}

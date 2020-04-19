@@ -1,0 +1,20 @@
+.product-adds__item {
+    border: none;
+    padding: 3px;
+    text-align: left;
+}
+
+.product-adds__img {
+    height: 100%;
+    width: 100%;
+}
+
+.product-adds__name {
+    font-size: 16px;
+    max-width: 50%;
+}
+
+.product-adds__link {
+    color: $primary-color;
+    font-size: $small-text-size;
+}

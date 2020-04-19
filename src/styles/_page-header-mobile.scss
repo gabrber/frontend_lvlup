@@ -1,0 +1,46 @@
+@media screen and (max-width: $mobile-max-width) {
+    .page-navigation__icon {
+        position: fixed;
+        display: inline-block;
+        z-index: 2;
+        top: 20px;
+        left: 0px;
+        padding-left: 5%;
+    }
+
+    .page-navigation__items {
+        visibility: hidden;
+        opacity: 0;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        z-index: 1;
+        width: 100vw;
+        background-color: rgba(38, 58, 73, 0.8);
+        padding-top: 40px;
+        padding-left: 5%;
+    }
+
+    .page-navigation__items--display {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .page-navigation__item {
+        display: block;
+        padding-left: 15px;
+
+    }
+
+    .page-header__logo {
+        position: static;
+        padding: 25px;
+        padding-left: 40px;
+        transform: none;
+    }
+
+    .page-navigation__items.page-navigation__items--display {
+        visibility: visible;
+        opacity: 1;
+    }
+}
