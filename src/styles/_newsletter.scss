@@ -1,0 +1,25 @@
+.content-section__newsletter {
+    text-align: center;
+}
+
+.newsletter__form {
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+
+.newsletter__form__field {
+    border-bottom: solid black 1px;
+}
+
+.form__input {
+    border: none;
+    width: 100%;
+}
+
+.form__button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 2%;
+}

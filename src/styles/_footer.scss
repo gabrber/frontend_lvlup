@@ -1,0 +1,35 @@
+.page-footer__content {
+    border-top: solid black 1px;
+}
+
+.social-links__img {
+    width: 12px;
+}
+
+.page-footer__list {
+    list-style: none;
+    padding: 15px 0px;
+    margin-bottom: 0px;
+}
+
+.footer-info-links {
+    text-align: center;
+}
+
+.page-footer__list__item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer-info__link {
+    color: black;
+}
+
+.page-footer__payment {
+    position: relative;
+}
+
+.payment__image {
+    position: absolute;
+    right: 0%;
+}

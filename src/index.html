@@ -1,13 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
-  <section>
-    <h1>Hello World!</h1>
-  </section>
+  <header class="page-header">
+    <div class="page-header__bar page__container">
+      <nav class="page-header__section page-navigation">
+        <ul class="page-header__list page-navigation__items">
+          <li class="page-header__item page-navigation__item">
+            <a class="page-navigation__link" href="#">Home</a>
+          </li>
+          <li class="page-header__item page-navigation__item">
+            <a class="page-navigation__link" href="#shop">Shop</a>
+          </li>
+          <li class="page-header__item page-navigation__item">
+            <a class="page-navigation__link" href="#elements">Elements</a>
+          </li>
+          <li class="page-header__item page-navigation__item">
+            <a class="page-navigation__link" href="#blog">Blog</a>
+          </li>
+          <li class="page-header__item page-navigation__item">
+            <a class="page-navigation__link" href="#page">Page</a>
+          </li>
+        </ul>
+      </nav>
+      <img class="page-header__logo" src="./assets/icons/logo-zonex.svg" alt="logo" />
+      <div class="page-header__section page-header__user">
+        <ul class="page-header__list user-list">
+          <li class="page-header__item">
+            <a class="user-list__link" href="#"><img class="user-list__img" src="./assets/icons/kz-user.svg"
+                alt="User Account" /></a>
+          </li>
+          <li class="page-header__item">
+            <a class="user-list__link" href="#"><img class="user-list__img" src="./assets/icons/kz-bag.svg"
+                alt="User Account" /></a>
+          </li>
+          <li class="page-header__item">
+            <div class="user-list__inbag">
+              <img class="user-list__img inbag__image" src="./assets/icons/ellipse-1.svg" alt="In Bag" />
+              <div class="inbag__text">0</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="page-content">
+    <section id="product-carousel" class="content-section product-carousel">
+      <div id="carouselExample" class="page__container carousel slide" data-ride="carousel" data-interval="9000">
+        <div class="carousel-inner row w-10 mxauto">
+          <div class="carousel-item col-md-3 active">
+            <img class="img-fluid mx-auto d-bloc" src="https://via.placeholder.com/600x400?text=1" alt="slide 1">
+          </div>
+          <div class="carousel-item col-md-3">
+            <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=2" alt="slide 2">
+          </div>
+          <div class="carousel-item col-md-3">
+            <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=3" alt="slide 3">
+          </div>
+          <div class="carousel-item col-md-3">
+            <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=4" alt="slide 4">
+          </div>
+          <div class="carousel-item col-md-3">
+            <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=5" alt="slide 5">
+          </div>
+          <div class="carousel-item col-md-3">
+            <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=6" alt="slide 6">
+          </div>
+          <div class="carousel-item col-md-3">
+            <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=7" alt="slide 7">
+          </div>
+          <div class="carousel-item col-md-3">
+            <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=8" alt="slide 7">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <section id="product-new" class="content-section">
+      <h2 class="content-section__header">New arrivals</h2>
+      <div class="page__container row">
+        <div class="card col-md-3 col-sm-6 col-6 col-sm-6 product-new__item">
+          <img class="card-img-top" src="https://via.placeholder.com/309x390" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-md-3 col-sm-6 col-6 product-new__item">
+          <img class="card-img-top" src="https://via.placeholder.com/309x390" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-md-3 col-sm-6 col-6 product-new__item">
+          <img class="card-img-top" src="https://via.placeholder.com/309x390" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-md-3 col-sm-6 col-6 product-new__item">
+          <img class="card-img-top" src="https://via.placeholder.com/309x390" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-md-3 col-sm-6 col-6 product-new__item">
+          <img class="card-img-top" src="https://via.placeholder.com/309x390" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-md-3 col-sm-6 col-6 product-new__item">
+          <img class="card-img-top" src="https://via.placeholder.com/309x390" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-md-3 col-sm-6 col-6 product-new__item">
+          <img class="card-img-top" src="https://via.placeholder.com/309x390" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-md-3 col-sm-6 col-6 product-new__item">
+          <img class="card-img-top" src="https://via.placeholder.com/309x390" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+        <button class="product-new__button">All products</button>
+      </div>
+    </section>
+    <section id="product-adds">
+      <div class="page__container row">
+        <div class="card col-md-4 product-adds__item">
+          <img class="card-img product-adds__img" src="https://via.placeholder.com/547x630" alt="Card image">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Card title</h5>
+            <a class="card-text product-adds__link" href="#">Shop now</p>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6 product-adds__item">
+              <img class="card-img product-adds__img" src="https://via.placeholder.com/380x310" alt="Card image">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <a class="card-text product-adds__link" href="#">Shop now</p>
+              </div>
+            </div>
+            <div class="col-md-6 product-adds__item">
+              <img class="card-img product-adds__img" src="https://via.placeholder.com/380x310" alt="Card image">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <a class="card-text product-adds__link" href="#">Shop now</p>
+              </div>
+            </div>
+            <div class="col-md-12 product-adds__item">
+              <img class="card-img product-adds__img" src="https://via.placeholder.com/769x310" alt="Card image">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <a class="card-text product-adds__link" href="#">Shop now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="newsletter">
+      <h3 class="content-section__newsletter">Our newsletter</h3>
+      <p class="content-section__newsletter"> Join our list and get 15% off your first purchase!</p>
+      <div class="newsletter__form">
+        <form class="form">
+          <div class="newsletter__form__field">
+            <input class="form__input" type="email" name="email" id="email" placeholder="Email Address" required />
+            <button class="button form__button" type="submit">Subscribe</button>
+          </div>
+        </form>
+        <p>*Don’t worry we don’t spam</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page__container page-footer__content">
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="social-links page-footer__list">
+            <li class="social-links__item page-footer__list__item">
+              <a class="social-links__link" href="http://twitter.com/"><img class=social-links__img
+                  src="./assets/icons/kz-twitter.svg" alt="Twitter" /></a>
+            </li>
+            <li class="social-links__item page-footer__list__item">
+              <a class="social-links__link" href="http://facebook.com/"><img class=social-links__img
+                  src="./assets/icons/kz-facebook.svg" alt="Facebook" /></a>
+            </li>
+            <li class="social-links__item page-footer__list__item">
+              <a class="social-links__link" href="http://instagram.com/"><img class=social-links__img
+                  src="./assets/icons/kz-instagram.svg" alt="Instagram" /></a>
+            </li>
+            <li class="social-links__item page-footer__list__item">
+              <a class="social-links__link" href="http://pinterest.com"><img class=social-links__img
+                  src="./assets/icons/kz-pinterest.svg" alt="=Pinterest" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="footer-info-links page-footer__list">
+            <li class="page-footer__list__item"><a class="footer-info__link" href="#">Return policy</a></li>
+            <li class="page-footer__list__item"><a class="footer-info__link" href="#">Track Your Order</a></li>
+            <li class="page-footer__list__item"><a class="footer-info__link" href="#">Shipping & Delivery</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="page-footer__list">
+            <li class="page-footer__list__item">Currency</li>
+            <li class="page-footer__list__item">Language</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <p>©2019 Zonex All rights reserved</p>
+        </div>
+        <div class="col-md-6 page-footer__payment">
+          <img class="payment__image" src="assets/images/payment.png" alt="Payments" />
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>

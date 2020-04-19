@@ -1,5 +1,6 @@
-import './styles/style.sass';
-import script from './script.js';
-import './assets/daftcode.png';
+import './styles/style.scss'
+import script from './js/script'
+import 'bootstrap';
+import './js/carousel';
 
-script();
+script()

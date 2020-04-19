@@ -1,0 +1,13 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "general";
+@import "carousel";
+@import "page-header";
+@import "products";
+@import "adds";
+@import "newsletter";
+@import "footer";
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url('../assets/fonts/RedHatDisplay-Regular.ttf');
+}

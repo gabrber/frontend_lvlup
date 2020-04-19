@@ -1,0 +1,65 @@
+.page-header {
+    background-image: url("https://via.placeholder.com/1920x550");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-header__bar {
+    position: relative;
+}
+
+.page-header__section {
+    display: inline-block;
+}
+
+.page-header__list {
+    list-style: none;
+    padding: 15px 0px;
+}
+.page-header__item {
+    display: inline-block;
+    padding: 5px;
+}
+
+.page-navigation__link {
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.page-navigation__link:active {
+    text-decoration: underline;
+}
+
+.page-header__user {
+    position: absolute;
+    right: 0%;
+}
+
+.user-list__img {
+    width: 12px;
+}
+
+.user-list__inbag {
+    position: relative;
+}
+
+.inbag__text {
+    font-size: 5px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page-header__logo {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 117px;
+}
