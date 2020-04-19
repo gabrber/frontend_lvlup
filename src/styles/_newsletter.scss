@@ -1,20 +1,33 @@
 .content-section__newsletter {
     text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
-.newsletter__form {
+.newsletter__title {
+    font-size: 30px;
+}
+
+.newsletter__subtitle {
+    font-size: 15px;
+}
+
+.newsletter__form__container {
     width: 50%;
     margin: auto;
-    position: relative;
+    font-size: $small-text-size;
 }
 
 .newsletter__form__field {
-    border-bottom: solid black 1px;
+    border-bottom: solid $primary-color 1px;
+    position: relative;
+    margin-bottom: 2vh;
 }
 
 .form__input {
     border: none;
     width: 100%;
+    padding: 10px;
 }
 
 .form__button {
@@ -22,4 +35,7 @@
     background-color: transparent;
     position: absolute;
     right: 2%;
+    bottom: 50%;
+    transform: translate(0%, 50%);
+    font-weight: bold;
 }

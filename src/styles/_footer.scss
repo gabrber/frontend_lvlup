@@ -1,9 +1,10 @@
 .page-footer__content {
-    border-top: solid black 1px;
+    border-top: solid $primary-color 1px;
+    font-size: $small-text-size;
 }
 
 .social-links__img {
-    width: 12px;
+    width: $icon-size;
 }
 
 .page-footer__list {
@@ -22,7 +23,11 @@
 }
 
 .footer-info__link {
-    color: black;
+    color: $primary-color;
+}
+
+.page-footer__right {
+    text-align: right;
 }
 
 .page-footer__payment {

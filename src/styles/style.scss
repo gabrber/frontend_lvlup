@@ -1,11 +1,20 @@
+$primary-color: #151515;
+$small-text-size: 13px;
+$icon-size: 12px;
+
+$mobile-max-width: 768px;
+
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 @import "general";
+@import "general-mobile";
 @import "carousel";
 @import "page-header";
 @import "products";
 @import "adds";
 @import "newsletter";
+@import "newsletter-mobile";
 @import "footer";
+@import "footer-mobile";
 
 @font-face {
   font-family: "Red Hat Display";

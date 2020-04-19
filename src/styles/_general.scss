@@ -1,11 +1,11 @@
 body {
     background: #ffffff;
     font-family: "Red Hat Display", Arial;
+    color: $primary-color;
 }
 
 section {
     padding: 20px;
-    margin-bottom: 20px;
 }
 
 .page__container {
@@ -15,6 +15,9 @@ section {
 
 .content-section__header {
     text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 48px;
 }
 
 .mxauto {

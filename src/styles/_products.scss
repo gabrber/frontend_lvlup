@@ -6,4 +6,28 @@
 
 .product-new__button {
     margin: auto;
+    border: solid $primary-color 1px;
+    background-color: transparent;
+    padding: 8px 24px;
+    font-size: $small-text-size;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product__item {
+    padding: 0px;
+}
+
+.product__item__desc {
+    font-size: $small-text-size;
+    text-align: left;
+}
+
+.product__name {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.product__price {
+    font-weight: bold;
 }
