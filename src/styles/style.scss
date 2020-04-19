@@ -6,14 +6,16 @@ $mobile-max-width: 768px;
 
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 @import "general";
-@import "general-mobile";
 @import "carousel";
 @import "page-header";
 @import "products";
 @import "adds";
 @import "newsletter";
-@import "newsletter-mobile";
 @import "footer";
+
+@import "general-mobile";
+@import "page-header-mobile";
+@import "newsletter-mobile";
 @import "footer-mobile";
 
 @font-face {
