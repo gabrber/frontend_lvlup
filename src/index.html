@@ -50,10 +50,43 @@
         </ul>
       </div>
     </div>
+    <img src="assets/icons/scroll-up.svg" class="btn-scroll" alt="scroll-up"/>
   </header>
   <main class="page-content">
     <section id="product-carousel" class="content-section product-carousel">
-      <div id="carouselExample" class="page__container carousel slide" data-ride="carousel" data-interval="9000">
+      <div class="page__container">
+        <div class="glider-contain">
+          <div class="glider">
+            <div class="product-carousel__item">
+              <img class="img-fluid mx-auto d-bloc" src="https://via.placeholder.com/600x400?text=1" alt="slide 1">
+            </div>
+            <div class="product-carousel__item">
+              <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=2" alt="slide 2">
+            </div>
+            <div class="product-carousel__item">
+              <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=3" alt="slide 3">
+            </div>
+            <div class="product-carousel__item">
+              <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=4" alt="slide 4">
+            </div>
+            <div class="product-carousel__item">
+              <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=5" alt="slide 5">
+            </div>
+            <div class="product-carousel__item">
+              <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=6" alt="slide 6">
+            </div>
+            <div class="product-carousel__item">
+              <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=7" alt="slide 7">
+            </div>
+            <div class="product-carousel__item">
+              <img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/600x400?text=8" alt="slide 7">
+            </div>
+          </div>
+          <button role="button" aria-label="Previous" class="glider-prev product-carousel__prev"><img class="carousel__button" src="assets/icons/left-arrow.svg" /> </button>
+          <button role="button" aria-label="Next" class="glider-next product-carousel__next"><img class="carousel__button" src="assets/icons/right-arrow.svg" /></button>
+        </div>
+      </div>
+      <!-- <div id="carouselExample" class="page__container carousel slide" data-ride="carousel" data-interval="9000">
         <div class="carousel-inner row w-10 mxauto">
           <div class="carousel-item col-md-3 active">
             <img class="img-fluid mx-auto d-bloc" src="https://via.placeholder.com/600x400?text=1" alt="slide 1">
@@ -88,11 +121,11 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+      </div> -->
     </section>
     <section id="product-new" class="content-section">
       <h2 class="content-section__header">New arrivals</h2>
-      <div class="page__container row">
+      <div class="page__container row product-new__continer">
         <div class="card col-md-3 col-sm-6 col-6 col-sm-6 product-new__item">
           <img class="card-img-top" src="https://via.placeholder.com/309x390" alt="Card image cap">
           <div class="card-body product__item">
@@ -150,7 +183,6 @@
           </div>
         </div>
         <button class="product-new__button">All products</button>
-      </div>
     </section>
     <section id="product-adds">
       <div class="page__container row">
@@ -240,7 +272,7 @@
           </ul>
         </div>
         <div class="col-md-6 page-footer__rights">
-          <p class="page-footer__rights__text">©2019 Zonex All rights reserved</p>
+          <p class="page-footer__rights__text">©<span class="rights__year">2019</span> Zonex All rights reserved</p>
         </div>
         <div class="col-md-6 page-footer__payment">
           <img class="payment__image" src="assets/images/payment.png" alt="Payments" />

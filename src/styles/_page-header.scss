@@ -67,3 +67,15 @@
     transform: translate(-50%, 0%);
     width: 117px;
 }
+
+.btn-scroll {
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    width: 25px;
+}
+
+.btn-scroll--display {
+    visibility: visible;
+}

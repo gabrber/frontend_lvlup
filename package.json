@@ -26,6 +26,7 @@
     "css-loader": "^3.5.2",
     "file-loader": "^6.0.0",
     "gh-pages": "^2.2.0",
+    "glider-js": "^1.7.2",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.2.0",
     "install": "^0.13.0",

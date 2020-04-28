@@ -43,4 +43,11 @@
         visibility: visible;
         opacity: 1;
     }
+
+    .btn-scroll {
+        z-index: 2;
+        position: fixed;
+        top: 95%;
+        right: 2%;
+    }
 }

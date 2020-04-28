@@ -5,6 +5,7 @@ $icon-size: 12px;
 $mobile-max-width: 768px;
 
 @import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/glider-js/glider";
 @import "general";
 @import "carousel";
 @import "page-header";
@@ -17,6 +18,7 @@ $mobile-max-width: 768px;
 @import "page-header-mobile";
 @import "newsletter-mobile";
 @import "footer-mobile";
+@import "carousel-mobile";
 
 @font-face {
   font-family: "Red Hat Display";
