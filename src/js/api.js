@@ -16,6 +16,17 @@ let currentProductIndex = (function () {
     return currIndex;
 })()
 
+let alerted = (function () {
+    let i = 0;
+    const alertMessage = function() {
+        if (i < 1) {
+            alert("Our website is not working correctly. Please try again later.");
+            return i++;
+        }
+    }
+    return alertMessage;
+})()
+
 const addProductsToList = (loadedProducts) => {
     for (let i = 0; i < loadedProducts.length; i++) {
         let oneProduct = loadedProducts[i];
@@ -33,6 +44,9 @@ const productPromise = () => {
           "x-rapidapi-key": "95cb5eb8a8msh0e38927aa571311p168e5bjsn1649e0060947"
         }
     });
+    productsPromise.catch((error) => { 
+        alerted();
+    });  
     return productsPromise;
 }
 
